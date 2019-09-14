@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sourcey.materiallogindemo">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".bluetooth.Chat" />
+        <activity android:name=".bluetooth.Select" />
+        <activity android:name=".bluetooth.Scan" />
+        <activity
+            android:name=".YogaPosesList"
+            android:label="YogaPosesList"
+            android:exported="true"
+            />
+        <activity
+            android:name=".YogaPoses.BigToePose"
+            android:label="BigToePose" />
+        <activity
+            android:name=".YogaPoses.BoundAnglePose"
+            android:label="BoundAnglePose" />
+        <activity
+            android:name=".YogaPoses.BowPose"
+            android:label="BowPose" />
+        <activity
+            android:name=".YogaPoses.BridgePose"
+            android:label="BridgePose" />
+        <activity
+            android:name=".YogaPoses.CamelPose"
+            android:label="CamelPose" />
+        <activity
+            android:name=".YogaPoses.CatPose"
+            android:label="CatPose" />
+        <activity
+            android:name=".YogaPoses.ChannelCleaningBreath"
+            android:label="ChannelCleaningBreath" />
+        <activity
+            android:name=".YogaPoses.CowPose"
+            android:label="CowPose" />
+        <activity
+            android:name=".YogaPoses.EasyPose"
+            android:label="EasyPose" />
+        <activity
+            android:name=".YogaPoses.ExtendedPuppyPose"
+            android:label="ExtendedPuppyPose" />
+        <activity
+            android:name=".YogaPoses.FishPose"
+            android:label="FishPose" />
+        <activity
+            android:name=".YogaPoses.SeatedForwardBend"
+            android:label="SeatedForwardBend" />
+        <activity
+            android:name=".YogaPoses.StandingForwardBend"
+            android:label="StandingForwardBend" />
+        <activity
+            android:name=".YogaPoses.UpwardSalute"
+            android:label="UpwardSalute" />
+        <activity
+            android:name=".AudioPlayer"
+            android:label="AudioPlayer" />
+        <activity
+            android:name=".SoothingSoundsList"
+            android:label="SoothingSoundsList" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack1"
+            android:label="SoothingSoundsTrack1" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack2"
+            android:label="SoothingSoundsTrack2" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack3"
+            android:label="SoothingSoundsTrack3" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack4"
+            android:label="SoothingSoundsTrack4" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack5"
+            android:label="SoothingSoundsTrack5" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack6"
+            android:label="SoothingSoundsTrack6" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack7"
+            android:label="SoothingSoundsTrack7" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack8"
+            android:label="SoothingSoundsTrack8" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack9"
+            android:label="SoothingSoundsTrack9" />
+        <activity
+            android:name=".SoothingSounds.SoothingSoundsTrack10"
+            android:label="SoothingSoundsTrack10" />
+        <activity
+            android:name=".VideoPlayer"
+            android:label="VideoPlayer" />
+        <activity
+            android:name=".YogaVideoList"
+            android:label="YogaVideoList"
+            android:exported="true"/>
+        <activity
+            android:name=".YogaVideos.YogaChill"
+            android:label="YogaChill" />
+        <activity
+            android:name=".YogaVideos.YogaForAnxietyAndStress"
+            android:label="YogaForAnxietyStress" />
+        <activity
+            android:name=".YogaVideos.YogaForConcentrationAndMentalFocus"
+            android:label="YogaForConcentrationAndMentalFocus" />
+        <activity
+            android:name=".YogaVideos.YogaForRelaxation"
+            android:label="YogaForRelaxation" />
+        <activity
+            android:name=".YogaVideos.YogaForSelfCare"
+            android:label="YogaForSelfCare" />
+        <activity
+            android:name=".YogaVideos.YogaForStressManagement"
+            android:label="YogaForStressManagement" />
+        <activity
+            android:name=".YogaVideos.YogaMeditationForInnerPeace"
+            android:label="YogaMeditationForInnerPeace" />
+        <activity
+            android:name=".YogaVideos.YogaMovementMedicineCalmingPractice"
+            android:label="YogaMovementMedicineCalmingPractice" />
+        <activity
+            android:name=".YogaVideos.YogaQuickStressFix"
+            android:label="YogaQuickStressFix" />
+        <activity
+            android:name=".YogaVideos.YogaToCalmYourNerves"
+            android:label="YogaToCalmYourNerves" />
+        <activity
+            android:name=".YogaVideos.Funny_1"
+            android:label="Funny_1" />
+        <activity
+            android:name=".YogaVideos.Funny_2"
+            android:label="Funny_2" />
+        <activity
+            android:name=".YogaVideos.Funny_3"
+            android:label="Funny_3" />
+        <activity
+            android:name=".YogaVideos.Funny_4"
+            android:label="Funny_4" />
+        <activity
+            android:name=".login.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".login.SignupActivity"
+            android:theme="@style/AppTheme.Dark" />
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Brain Sprain</string>
+
+    <string name="intro">Welcome to Brain Sprain! Our goal is to help alleviate your
+        stress and anxiety by providing a few coping mechanisms that will help calm you down.
+        How do tell if you are not calm? We measure your heart rate using a device that has a pulse sensor.
+        When your heart rate reaches a thresh hold of 120 - 150 beats per minute (bpm)
+        the app will notify you and you will be able to begin with a coping mechanism that was rated by you
+    </string>
+
+    <string name="connecting">Before continuing with the setup of the app make sure your bluetooth is turned on. Also
+        make sure you are connected to the HC-O5 heart rate monitoring device. If you are not, go to your device settings,
+        find your bluetooth settings, turn on bluetooth and pair with HC-O5. Your beats per minute will also be displayed
+        on the main screen and it will also show if you are properly connected to the HC-O5 device. Press the "next button"
+        below to continue.
+    </string>
+
+    <string name="Q1">On a scale of 1 to 5 how do you enjoy yoga?</string>
+    <string name="Q2">On a scale of 1 to 5 how do you enjoy videos?</string>
+    <string name="Q3">On a scale of 1 to 5 how do you enjoy the sound of rain?</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="bg">#C0C0C0</color>
+
+    <string name="play"><![CDATA[>]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
